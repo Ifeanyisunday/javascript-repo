@@ -22,13 +22,13 @@ function squareNumbers(numbers) {
 
 let members = ["Emily", "Jack", "Sophia",  "Daniel"]
 let books = ["Book of life", "chem book", "Phy book", "Math book"]
-function printObject(mem, book) {
+function printObject(memberList, book) {
     let index = 0;
-    for (let element of mem) {
-        mem[element] = book[index]
+    for (let element of memberList) {
+        memberList[element] = book[index]
         index = index + 1;
     }
-    return mem;
+    return memberList;
 }
 
 let classTiming = ["9:00 AM", "11:00 AM", "1:00 PM", "3:00 PM", "5:00 PM"]
@@ -52,4 +52,4 @@ function totalExpenses(cost) {
     return totalAmountSpent;
 }
 
-module.exports = {displayNumAbove70, addExamGradesBy5, squareNumbers, printObject};
+module.exports = {displayNumAbove70, addExamGradesBy5, squareNumbers, checkClassTime, totalExpenses};

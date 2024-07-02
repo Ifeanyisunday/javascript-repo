@@ -1,4 +1,4 @@
-const {displayNumAbove70, addExamGradesBy5, squareNumbers, printObject} = require('./RecapTask');
+const {displayNumAbove70, addExamGradesBy5, squareNumbers, checkClassTime, totalExpenses} = require('./RecapTask');
 
 test('Recap Task 1', () => {
     let testScores = [12, 4, 23, 60, 4, 12, 17, 80, 90, 3]
@@ -16,6 +16,16 @@ test('Recap Task 3', () => {
 })
 
 test("Recap Task 4", () => {
-    let members = ["Emily", "Jack", "Sophia",  "Daniel"]
-    let books = ["Book of life", "chem book", "Phy book", "Math book"]
+    let classTiming = ["9:00 AM", "11:00 AM", "1:00 PM", "3:00 PM", "5:00 PM"]
+    expect(checkClassTime(classTiming)).toEqual(["1:00 PM", "3:00 PM", "5:00 PM"])
+})
+
+test('Recap Task 5', () => {
+    let expenses = {
+        "groceries": 150,
+        "dining out": 100,
+        "transportation": 50,
+        "entertainment": 80
+    }
+    expect(totalExpenses(expenses)).toEqual(380);
 })
