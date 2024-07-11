@@ -1,0 +1,329 @@
+    .navigation{
+        display: inline;
+        color: rgba(0, 0, 0, 0.73);
+    }
+
+    img {
+        width: 10%;
+        margin-top: 25px;
+        margin-left: 5%;
+        float: left
+    }
+
+    ul{
+        display: inline;
+        font-size: 10px;
+    }
+
+    .list{
+        margin-left: 50%;
+    }
+
+    h4{
+        font-size: 20px;
+        margin-top: 3.5%;
+        padding-left: 30px;
+        float: left;
+        display: inline-block;
+    }
+
+    h1{
+        margin-left: 5%;
+        margin-top: 10%;
+        color: rgba(0, 0, 0, 0.66);
+        font-size: xxx-large;
+    }
+
+    .firststage #p1{
+        margin-top: 3px;
+        margin-left: 5%;
+        color: rgba(0, 0, 0, 0.88);
+    }
+
+    .firststage .gif img{
+        float: right;
+        width: 43%;
+        margin-top: -21%;
+        margin-right: 5%;
+    }
+
+    #btnContainer{
+        text-align: left;
+        display: inline;
+    }
+
+    div .btn1 #individual{
+        margin-left: 5.5%;
+        margin-top: 1%;
+        width: 13%;
+        border-radius: 12px;
+        border-color: red;
+        color: white;
+        background-color: red;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    div .btn1 #business{
+        background-color: white;
+        margin-left: 2%;
+        width: 13%;
+        border-radius: 12px;
+        border-color: red;
+        color: red;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .secondheader{
+        font-size: 30px;
+        margin-left: 9%;
+        margin-top: 15%;
+    }
+
+    .secondheader #highlight1{
+        color: red;
+    }
+
+    .rectangle1{
+        display: inline-block;
+        background: rgba(255, 0, 0, 0.85);
+        border-radius: 15px;
+        width: 38%;
+        margin-left: 9%;
+        padding-right: 10px;
+    }
+
+    .rectangle1 img{
+        padding: 6% 3% 3% 3%;
+    }
+
+    .rectangle1 #p2{
+        color: white;
+        font-size: 22px;
+        padding-left: 7%;
+        padding-top: 22%;
+        padding-bottom: 8%;
+    }
+
+    .rectangle1 #bold{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .rectangle2{
+        display: inline-block;
+        background: rgba(255, 0, 0, 0.85);
+        border-radius: 15px;
+        width: 38%;
+        margin-left: 5%;
+        padding-right: 10px;
+    }
+
+
+    .rectangle2 img{
+        padding: 6% 3% 3% 3%;
+    }
+
+    .rectangle2 #bold1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .rectangle2 #p3{
+        color: white;
+        font-size: 22px;
+        padding-left: 7%;
+        padding-top: 22%;
+        padding-bottom: 8%;
+    }
+
+    #highlight2{
+        color: red;
+    }
+    h2{
+        color: rgba(0, 0, 0, 0.66);
+    }
+
+    .secondstage{
+        font-size: 20px;
+        margin-top: 15%;
+        margin-left: 10%;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .secondstage .inner-list .p4{
+        background: rgba(0, 0, 0, 0.05);
+        width: 0.3%;
+        lenght: 20px;
+        color: rgba(0, 0, 0, 0.05);
+    }
+
+    .secondstage .inner-list .p5{
+        margin-left: 15px;
+        margin-top: -221px;
+    }
+
+    .circle{
+        border-radius: 100%;
+        width: 19%;
+        background: rgba(255, 182, 193, 0.32);
+        margin-top: -30px;
+        margin-left: -5px;
+    }
+
+    .circle .pcircle{
+        padding-left: 10%;
+        font-size: 40px;
+        color: rgba(255, 182, 193, 0);
+    }
+
+    .rectangle3{
+        background: rgba(135, 206, 250, 0.16);
+        width: 100%;
+        height: 100%;
+        margin-top: -22px;
+    }
+
+    .rectangle3 .enum{
+
+        margin-left: 700px;
+        margin-top: 60px;
+        width: 8%;
+    }
+
+    .rectangle3 .animediv{
+        width: 100%;
+        float: left;
+        margin-left: 15px;
+    }
+
+    .rectangle3 .animediv .anime1{
+        width: 25%;
+        margin-right: 60px;
+        padding-left: 40px;
+    }
+
+    .rectangle3 .animediv .anime2{
+        margin-left: -1px;
+        margin-top: 15px;
+        margin-right: 60px;
+        padding-left: -30px;
+        width: 25%;
+    }
+
+    .rectangle3 .animediv .anime3{
+        margin-left: 10px;
+        margin-top: 33px;
+        width: 25%;
+        margin-right: 60px;
+        padding-left: 10px;
+    }
+
+    .rectangle3 .thirdheader{
+        font-size: 30px;
+        margin-left: 480px;
+        font-family: Arial;
+        color: rgba(0, 0, 0, 0.63);
+    }
+
+    .rectangle3 .thirdheader #highlight3{
+        color: deepskyblue;
+    }
+
+    .rectangle3 .thirdheaderp{
+        font-size: 15px;
+        padding-top: 38%;
+        margin-left: -35px;
+        text-align: center;
+        font-family: Arial;
+        color: rgba(0, 0, 0, 0.62);
+    }
+
+    .rectangle3 .learnbtn{
+        width: 12%;
+        color: white;
+        background: #0686d8;
+        border-color: #0686d8;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 15px 0px 15px 0px;
+        margin-left: 675px;
+        margin-bottom: 35px;
+        text-align: center;
+        border-radius: 12px;
+    }
+
+    .Thirddiv .Thirddiv-title{
+        padding: 80px 0px 0px 36%;
+
+        font-size: 30px;
+        font-family: Arial;
+    }
+
+    .Thirddiv .Thirddiv-title .uspan{
+        color: red;
+    }
+
+    .Thirddiv .pics1 div{
+        display: inline-block;
+        padding: 3% 0% 0% 14%;
+        width: 85%;
+    }
+
+    .Thirddiv .pics1 div .brand6{
+        width: 2%;
+    }
+
+    .Thirddiv .pics2 div{
+        width: 85%;
+        padding-left: 10.5%;
+        padding-top: 2%;
+    }
+
+    .Thirddiv .pics2 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .Thirddiv .pics2 div .brand7{
+        padding-top: 10px;
+        padding-left: 1%;
+    }
+
+    .Thirddiv .pics2 div .brand8{
+        padding-top: 10px;
+        padding-left: 1%;
+    }
+
+    .Thirddiv .pics2 div .brand9{
+        padding-top: 10px;
+        padding-left: 1%;
+    }
+
+    .Thirddiv .pics2 div .brand10{
+        padding-top: 10px;
+        padding-left: 1%;
+    }
+
+    .Thirddiv .pics2 div .brand11{
+        width: 7%;
+        padding-left: 1%;
+    }
+
+    .Thirddiv .pics2 div .brand12{
+        width: 6%;
+        padding-top: 4px;
+        padding-left: 1%;
+    }
+
+
+
+
+
+
+
+
+
+
+
