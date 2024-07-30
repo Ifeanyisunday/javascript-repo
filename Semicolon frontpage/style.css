@@ -1,6 +1,20 @@
-    .navigation{
+body{
+    overflow-x: hidden;
+}
+
+.navigation{
+        position: sticky;
+        top: 0;
         display: inline;
         color: rgba(0, 0, 0, 0.73);
+        background-color: red;
+        width: 100%;
+    flex-wrap: wrap;
+    }
+
+    .navigation div{
+        background-color: white;
+        height: 10vh;
     }
 
     img {
@@ -16,15 +30,51 @@
     }
 
     .list{
-        margin-left: 50%;
+        margin-left: 46%;
+    }
+
+    .navigation div .list ul h4{
+        transform: translateY(0);
+        transition: transform 0.25s;
+    }
+
+    .navigation div .list ul h4:hover{
+        color: red;
+        transform: translateY(3px);
     }
 
     h4{
-        font-size: 20px;
+        font-size: 17px;
+        font-family: Arial;
         margin-top: 3.5%;
         padding-left: 30px;
         float: left;
         display: inline-block;
+    }
+
+    .navigation div .list ul .join{
+        border-radius: 10px;
+        margin-top: 2%;
+        font-weight: bold;
+        font-size: 15px;
+        color: red;
+        background: white;
+        border-color: red;
+        width: 23%;
+        height: 6.5vh;
+    }
+
+    .navigation div .list ul .join .bheader{
+        margin-top: 10px;
+        margin-left: -8px;
+    }
+    .navigation div .list ul .join .bheader:hover{
+        transform: translateX(0);
+        transition: transform 0.25s;
+    }
+
+    .navigation div .list ul .join .bheader:hover{
+        transform: translateX(3px);
     }
 
     h1{
@@ -50,6 +100,15 @@
     #btnContainer{
         text-align: left;
         display: inline;
+    }
+
+    div .btn1 button{
+        transform: translateX(0);
+        transition: transform 0.30s;
+    }
+
+    div .btn1 button:hover{
+        transform: translateX(5px);
     }
 
     div .btn1 #individual{
@@ -92,6 +151,8 @@
         width: 38%;
         margin-left: 9%;
         padding-right: 10px;
+        flex-wrap: wrap;
+
     }
 
     .rectangle1 img{
@@ -186,7 +247,6 @@
     }
 
     .rectangle3 .enum{
-
         margin-left: 700px;
         margin-top: 60px;
         width: 8%;
@@ -222,7 +282,8 @@
 
     .rectangle3 .thirdheader{
         font-size: 30px;
-        margin-left: 480px;
+        margin-left: 490px;
+        margin-top: 50px;
         font-family: Arial;
         color: rgba(0, 0, 0, 0.63);
     }
@@ -234,7 +295,7 @@
     .rectangle3 .thirdheaderp{
         font-size: 15px;
         padding-top: 38%;
-        margin-left: -35px;
+        margin-left: 3px;
         text-align: center;
         font-family: Arial;
         color: rgba(0, 0, 0, 0.62);
@@ -248,7 +309,7 @@
         font-size: 15px;
         font-weight: bold;
         padding: 15px 0px 15px 0px;
-        margin-left: 675px;
+        margin-left: 678px;
         margin-bottom: 35px;
         text-align: center;
         border-radius: 12px;
@@ -278,7 +339,7 @@
     .Thirddiv .pics2 div{
         width: 85%;
         padding-left: 10.5%;
-        padding-top: 2%;
+        padding-top: 3%;
     }
 
     .Thirddiv .pics2 {
@@ -316,6 +377,212 @@
         padding-top: 4px;
         padding-left: 1%;
     }
+
+
+    .Thirddiv .pics3 {
+        display: flex;
+        width: 70vw;
+        justify-content: space-evenly;
+        gap: 3rem;
+        margin-left: 11%;
+        margin-top: 2%;
+    }
+
+    .Thirddiv .pics3 div img{
+        width: 7vw;
+        object-fit: scale-down;
+    }
+
+    .fouthdiv{
+        display: flex;
+        width: 100%;
+        background: rgba(255, 0, 0, 0.81);
+        height: 48vh;
+        margin-top: -150px;
+    }
+
+    .fouthdiv .line{
+        margin-top: 5%;
+        height: 50%;
+        margin-left: 12%;
+        padding-bottom: 30px;
+        width: 0.10vw;
+        background: white;
+    }
+
+    .fouthdiv .line .mainline{
+        font-size: 2px;
+        margin-left: 230px;
+        margin-top: 88px;
+        width: 2%;
+        height: 30vh;
+        color: white;
+    }
+
+    .fouthdiv .line .mainline{
+        font-size: 0px;
+    }
+
+    .fouthdiv .p6{
+        font-family: Arial;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        margin-left: 1.5%;
+        margin-top: 10%;
+    }
+
+    .form{
+        background: #f8f8d2;
+        margin-top: 5%;
+        margin-left: 25%;
+        width: 50vw;
+        height: 40vh;
+        border-radius: 30px;
+        border: 1px solid red;
+    }
+
+    .form .form-header{
+        font-family: Arial;
+        color: rgba(255, 0, 0, 0.84);
+        font-size: 35px;
+        padding-left: 22%;
+        padding-top: 5%;
+    }
+
+    .form .form-parag{
+        font-family: Arial;
+        text-align: center;
+        font-size: 17px;
+        color: rgba(76, 75, 75, 0.9);
+        margin-top: -15px;
+    }
+
+    .form .data-div{
+        display: flex;
+        justify-content: safe;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 4%;
+    }
+
+    .form .data-div .input-div1 input{
+        height: 6.5vh;
+        width: 13vw;
+        border-radius: 7px;
+        border: white;
+        font-weight: bold;
+        color: rgba(168, 163, 163, 0.1);
+    }
+
+    .form .data-div .input-div2 input{
+        height: 6.5vh;
+        width: 13vw;
+        border-radius: 7px;
+        border: white;
+        font-weight: bold;
+        color: rgba(168, 163, 163, 0.1);
+    }
+
+    .form .data-div .Subscribe-div input{
+        font-weight: bold;
+        color: white;
+        height: 6.8vh;
+        width: 13vw;
+        border-radius: 7px;
+        border: white;
+        background: rgba(255, 0, 0, 0.78);
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    .footer .footerlist1 h3{
+        font-family: Arial;
+        color: #50506a;
+    }
+
+    .footer .footerlist2 h3{
+        font-family: Arial;
+        color: #50506a;
+    }
+
+    .footer .footerlist3 h3{
+        font-family: Arial;
+        color: #50506a;
+    }
+
+    .footer .footerlist4 h3{
+        font-family: Arial;
+        color: #50506a;
+    }
+
+    .footer .footerlist1 p{
+        font-family: Arial;
+        color: #50506a;
+        font-size: 15px;
+    }
+
+    .footer .footerlist2 p{
+        font-family: Arial;
+        color: #50506a;
+        font-size: 15px;
+    }
+
+    .footer .footerlist3 p{
+        font-family: Arial;
+        color: #50506a;
+        font-size: 15px;
+    }
+
+    .footer .footerlist4 p{
+        font-family: Arial;
+        color: #50506a;
+        font-size: 15px;
+    }
+
+
+    .footerlist5 .footimg h3{
+        margin-left: 10.5%;
+        font-family: Arial;
+        color: #50506a;
+    }
+
+    .footerlist5 .footimg img{
+        width: 1.5vw;
+        margin-left: 10.5%;
+        padding-top: -40%;
+    }
+
+    .footerlist5 .shapes{
+        width: 28vw;
+        float: right;
+        margin-right: 8%;
+    }
+
+    .text{
+        font-size: 14px;
+        font-family: Arial;
+        margin-top: 30%;
+        margin-left: 40%;
+    }
+
+    .loveimg{
+        width: 1vw;
+        margin-left: 57.5%;
+        margin-top: -30px;
+    }
+    
+    @media (max-width: 600px) {
+        body{
+            width: 100%;
+        }
+    }
+
+
 
 
 

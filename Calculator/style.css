@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    #calculatorBody {
+        font-family: Verdana, sans-serif;
+        background-color: #1c1c37;
+        max-width: 232px;
+    }
+
+    #displayBox{
+        width: 225px;
+        height: 50px;
+        background-color: #787171;
+    }
+
+    #numberBoxes{
+        display: grid;
+        grid-template-columns: repeat(4, 0.04fr);
+    }
+
+    #numberBoxes button{
+        background-color: rgba(80, 77, 77, 0.73);
+        color: white;
+        margin-top: 5%;
+        width: 58px;
+        height: 50px;
+    }
+
+    #numberBoxes button:hover{
+        background-color: #a19a9a;
+    }
+
+    #numberBoxes .operator-btn{
+        background-color: #f8f8d2;
+        color: black;
+    }
+
+
+
+
